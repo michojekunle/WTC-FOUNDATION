@@ -150,3 +150,26 @@ article>img {
 .translated {
     transform:translateY(-20px); 
 }
+
+.slider {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    width: 92%;
+    transform: translateX(-10px);
+}
+
+.slider .bar {
+    background: white;
+    width: 50px;
+    height: 6px;
+    border-radius: 8px;
+    margin: 20px 8px;
+}
+
+.slider .present {
+    background: rgba(177, 240, 37, 1);
+}
