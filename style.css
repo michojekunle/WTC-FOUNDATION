@@ -78,6 +78,7 @@ button {
     border-radius: 20px;
     text-transform: uppercase;
     border: none;
+    font-weight: 700;
 }
 
 .nextButton {
@@ -138,3 +139,4 @@ article>img {
     margin-top: 20px;
 }
 
+.translat
