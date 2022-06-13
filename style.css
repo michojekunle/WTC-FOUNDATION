@@ -10,6 +10,7 @@ header {
     width: 100%;
     height: 12vh;
     min-height: fit-content;
+    max-height:120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,12 +47,13 @@ header {
 
 main{
     position: relative;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0% , rgba(0, 0, 0, .6) 20%, rgba(0, 0, 0, 0.8) 40% ), url(./IMAGES/Rectangle\ 2.png);
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.8) 0% , rgba(0, 0, 0, .6) 20%, rgba(0, 0, 0, 0.8) 40% ), url(./IMAGES/Rectangle\ 2.png);
     background-size: 100% 100%;
     background-position: center;
     width: 100%;
     height: 90vh;
-    min-height: auto;
+    max-height:700px;
+
     padding: 80px 0;
     padding-left: 80px;
 }
@@ -130,7 +132,8 @@ article h3 {
     border-radius: 20px;
     padding: 8px 12px;
     text-align: center;
-    width: auto;
+    width: 120px;
+    margin-top:40px;
 }
 
 article>img {
@@ -138,5 +141,6 @@ article>img {
     height: 260px;
     margin-top: 20px;
 }
-
-.translat
+.translated {
+    transform:translateY(-20px); 
+}
